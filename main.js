@@ -117,7 +117,7 @@ function login() {
 
             // }
 
-            location.href="home.html"
+            location.href="./home.html"
 
         } else {
             document.getElementById('incorrect').innerHTML = '<span class="p-2 text-danger">incorrect email or password</span>'
